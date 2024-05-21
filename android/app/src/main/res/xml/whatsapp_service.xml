@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+  android:packageNames="com.whatsapp.w4b,com.whatsapp"
+  android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeAllMask"
+  android:accessibilityFlags="flagDefault|flagReportViewIds|flagRetrieveInteractiveWindows|flagDefault"
+  android:accessibilityFeedbackType="feedbackGeneric"
+  android:notificationTimeout="100"
+  android:canRetrieveWindowContent="true"
+  android:settingsActivity="com.callz1.android.accessibility.ServiceSettingsActivity" />
+<!--   
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:packageNames="com.whatsapp"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeAllMask"
+    android:accessibilityFlags="flagDefault|flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:settingsActivity="infinite.hacks.aditi.autowhatsapp.WhatsappAccessibilityService" /> -->
